@@ -1,0 +1,4 @@
+Pod UID: f7fa7ece-610f-4d9e-a32c-51e9593eff84
+ImageID: docker.io/chrislusf/seaweedfs@sha256:4e61d15fd35994cb1e43e1e553dff106794841fd9a99ade2fc8c8bfce4d7872d
+PVC UID: 16633fec-8118-4370-a306-0d47641ef019
+StorageClass: standard

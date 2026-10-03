@@ -1,0 +1,23 @@
+Name:          object-data
+Namespace:     group04
+StorageClass:  standard
+Status:        Bound
+Volume:        pvc-16633fec-8118-4370-a306-0d47641ef019
+Labels:        <none>
+Annotations:   pv.kubernetes.io/bind-completed: yes
+               pv.kubernetes.io/bound-by-controller: yes
+               volume.beta.kubernetes.io/storage-provisioner: rancher.io/local-path
+               volume.kubernetes.io/selected-node: desktop-control-plane
+               volume.kubernetes.io/storage-provisioner: rancher.io/local-path
+Finalizers:    [kubernetes.io/pvc-protection]
+Capacity:      4Gi
+Access Modes:  RWO
+VolumeMode:    Filesystem
+Used By:       objects-7db59fd589-q2tfm
+Events:
+  Type    Reason                 Age    From                                                                                                Message
+  ----    ------                 ----   ----                                                                                                -------
+  Normal  WaitForFirstConsumer   8m36s  persistentvolume-controller                                                                         waiting for first consumer to be created before binding
+  Normal  ExternalProvisioning   8m36s  persistentvolume-controller                                                                         Waiting for a volume to be created either by the external provisioner 'rancher.io/local-path' or manually by the system administrator. If volume creation is delayed, please verify that the provisioner is running and correctly registered.
+  Normal  Provisioning           8m36s  rancher.io/local-path_local-path-provisioner-855c7b7774-p4sxw_5123923c-26c1-4fc9-893c-058c363337e4  External provisioner is provisioning volume for claim "group04/object-data"
+  Normal  ProvisioningSucceeded  8m33s  rancher.io/local-path_local-path-provisioner-855c7b7774-p4sxw_5123923c-26c1-4fc9-893c-058c363337e4  Successfully provisioned volume pvc-16633fec-8118-4370-a306-0d47641ef019

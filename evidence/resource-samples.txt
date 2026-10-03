@@ -1321,3 +1321,224 @@ resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cp
 2026-10-03T16:43:21Z
 NAME                        REQUEST                                                                                                       LIMIT                                   AGE
 resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   27m
+2026-10-03T16:48:41Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   32m
+2026-10-03T16:49:41Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   33m
+2026-10-03T16:50:41Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   34m
+2026-10-03T16:51:42Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   35m
+2026-10-03T16:52:42Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   36m
+2026-10-03T16:53:42Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   37m
+2026-10-03T16:54:43Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   38m
+2026-10-03T16:55:43Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   39m
+2026-10-03T16:56:43Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   40m
+2026-10-03T16:57:44Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   41m
+2026-10-03T16:58:44Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   42m
+2026-10-03T16:59:44Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   43m
+2026-10-03T17:00:45Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   44m
+2026-10-03T17:01:45Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   45m
+2026-10-03T17:02:45Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   46m
+2026-10-03T17:03:46Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   47m
+2026-10-03T17:04:46Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   48m
+2026-10-03T17:05:46Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   49m
+2026-10-03T17:06:47Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   50m
+2026-10-03T17:07:47Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   51m
+2026-10-03T17:08:47Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   52m
+2026-10-03T17:09:47Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   53m
+2026-10-03T17:10:48Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   54m
+2026-10-03T17:11:48Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   55m
+2026-10-03T17:12:48Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   56m
+2026-10-03T17:13:49Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   57m
+2026-10-03T17:14:49Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   58m
+2026-10-03T17:15:49Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   59m
+2026-10-03T17:16:49Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   60m
+2026-10-03T17:17:50Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   61m
+2026-10-03T17:18:50Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   62m
+2026-10-03T17:19:50Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   63m
+2026-10-03T17:20:50Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   64m
+2026-10-03T17:21:51Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   65m
+2026-10-03T17:22:51Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   66m
+2026-10-03T17:23:51Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   67m
+2026-10-03T17:24:52Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   68m
+2026-10-03T17:25:52Z
+NAME                           READY   STATUS              RESTARTS   AGE   IP       NODE                    NOMINATED NODE   READINESS GATES
+pod/objects-7db59fd589-q2tfm   0/1     ContainerCreating   0          17s   <none>   desktop-control-plane   <none>           <none>
+
+NAME                                STATUS   VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   VOLUMEATTRIBUTESCLASS   AGE   VOLUMEMODE
+persistentvolumeclaim/object-data   Bound    pvc-16633fec-8118-4370-a306-0d47641ef019   4Gi        RWO            standard       <unset>                 17s   Filesystem
+
+NAME                        REQUEST                                                                                                                LIMIT                                     AGE
+resourcequota/team-budget   persistentvolumeclaims: 1/2, pods: 1/10, requests.cpu: 500m/2, requests.memory: 512Mi/2Gi, requests.storage: 4Gi/8Gi   limits.cpu: 1/4, limits.memory: 1Gi/4Gi   69m
+2026-10-03T17:26:52Z
+NAME                           READY   STATUS    RESTARTS   AGE   IP           NODE                    NOMINATED NODE   READINESS GATES
+pod/objects-7db59fd589-q2tfm   1/1     Running   0          78s   10.244.0.7   desktop-control-plane   <none>           <none>
+
+NAME                                STATUS   VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   VOLUMEATTRIBUTESCLASS   AGE   VOLUMEMODE
+persistentvolumeclaim/object-data   Bound    pvc-16633fec-8118-4370-a306-0d47641ef019   4Gi        RWO            standard       <unset>                 78s   Filesystem
+
+NAME                        REQUEST                                                                                                                LIMIT                                     AGE
+resourcequota/team-budget   persistentvolumeclaims: 1/2, pods: 1/10, requests.cpu: 500m/2, requests.memory: 512Mi/2Gi, requests.storage: 4Gi/8Gi   limits.cpu: 1/4, limits.memory: 1Gi/4Gi   70m
+2026-10-03T17:27:53Z
+NAME                           READY   STATUS    RESTARTS   AGE     IP           NODE                    NOMINATED NODE   READINESS GATES
+pod/objects-7db59fd589-q2tfm   1/1     Running   0          2m18s   10.244.0.7   desktop-control-plane   <none>           <none>
+
+NAME                                STATUS   VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   VOLUMEATTRIBUTESCLASS   AGE     VOLUMEMODE
+persistentvolumeclaim/object-data   Bound    pvc-16633fec-8118-4370-a306-0d47641ef019   4Gi        RWO            standard       <unset>                 2m18s   Filesystem
+
+NAME                        REQUEST                                                                                                                LIMIT                                     AGE
+resourcequota/team-budget   persistentvolumeclaims: 1/2, pods: 1/10, requests.cpu: 500m/2, requests.memory: 512Mi/2Gi, requests.storage: 4Gi/8Gi   limits.cpu: 1/4, limits.memory: 1Gi/4Gi   71m
+2026-10-03T17:28:53Z
+NAME                           READY   STATUS    RESTARTS   AGE     IP           NODE                    NOMINATED NODE   READINESS GATES
+pod/objects-7db59fd589-q2tfm   1/1     Running   0          3m18s   10.244.0.7   desktop-control-plane   <none>           <none>
+
+NAME                                STATUS   VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   VOLUMEATTRIBUTESCLASS   AGE     VOLUMEMODE
+persistentvolumeclaim/object-data   Bound    pvc-16633fec-8118-4370-a306-0d47641ef019   4Gi        RWO            standard       <unset>                 3m18s   Filesystem
+
+NAME                        REQUEST                                                                                                                LIMIT                                     AGE
+resourcequota/team-budget   persistentvolumeclaims: 1/2, pods: 1/10, requests.cpu: 500m/2, requests.memory: 512Mi/2Gi, requests.storage: 4Gi/8Gi   limits.cpu: 1/4, limits.memory: 1Gi/4Gi   72m
+2026-10-03T17:29:53Z
+NAME                           READY   STATUS    RESTARTS   AGE     IP           NODE                    NOMINATED NODE   READINESS GATES
+pod/objects-7db59fd589-q2tfm   1/1     Running   0          4m18s   10.244.0.7   desktop-control-plane   <none>           <none>
+
+NAME                                STATUS   VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   VOLUMEATTRIBUTESCLASS   AGE     VOLUMEMODE
+persistentvolumeclaim/object-data   Bound    pvc-16633fec-8118-4370-a306-0d47641ef019   4Gi        RWO            standard       <unset>                 4m18s   Filesystem
+
+NAME                        REQUEST                                                                                                                LIMIT                                     AGE
+resourcequota/team-budget   persistentvolumeclaims: 1/2, pods: 1/10, requests.cpu: 500m/2, requests.memory: 512Mi/2Gi, requests.storage: 4Gi/8Gi   limits.cpu: 1/4, limits.memory: 1Gi/4Gi   73m
+2026-10-03T17:30:53Z
+NAME                           READY   STATUS    RESTARTS   AGE     IP            NODE                    NOMINATED NODE   READINESS GATES
+pod/client-analyst             1/1     Running   0          27s     10.244.0.10   desktop-control-plane   <none>           <none>
+pod/client-blocked             1/1     Running   0          27s     10.244.0.11   desktop-control-plane   <none>           <none>
+pod/client-ingestor            1/1     Running   0          27s     10.244.0.9    desktop-control-plane   <none>           <none>
+pod/client-owner               1/1     Running   0          27s     10.244.0.8    desktop-control-plane   <none>           <none>
+pod/objects-7db59fd589-q2tfm   1/1     Running   0          5m19s   10.244.0.7    desktop-control-plane   <none>           <none>
+
+NAME                                STATUS   VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   VOLUMEATTRIBUTESCLASS   AGE     VOLUMEMODE
+persistentvolumeclaim/object-data   Bound    pvc-16633fec-8118-4370-a306-0d47641ef019   4Gi        RWO            standard       <unset>                 5m19s   Filesystem
+
+NAME                        REQUEST                                                                                                                LIMIT                                            AGE
+resourcequota/team-budget   persistentvolumeclaims: 1/2, pods: 5/10, requests.cpu: 700m/2, requests.memory: 768Mi/2Gi, requests.storage: 4Gi/8Gi   limits.cpu: 1400m/4, limits.memory: 1536Mi/4Gi   74m
+2026-10-03T17:31:54Z
+NAME                           READY   STATUS    RESTARTS   AGE     IP            NODE                    NOMINATED NODE   READINESS GATES
+pod/client-analyst             1/1     Running   0          87s     10.244.0.10   desktop-control-plane   <none>           <none>
+pod/client-blocked             1/1     Running   0          87s     10.244.0.11   desktop-control-plane   <none>           <none>
+pod/client-ingestor            1/1     Running   0          87s     10.244.0.9    desktop-control-plane   <none>           <none>
+pod/client-owner               1/1     Running   0          87s     10.244.0.8    desktop-control-plane   <none>           <none>
+pod/objects-7db59fd589-q2tfm   1/1     Running   0          6m19s   10.244.0.7    desktop-control-plane   <none>           <none>
+
+NAME                                STATUS   VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   VOLUMEATTRIBUTESCLASS   AGE     VOLUMEMODE
+persistentvolumeclaim/object-data   Bound    pvc-16633fec-8118-4370-a306-0d47641ef019   4Gi        RWO            standard       <unset>                 6m19s   Filesystem
+
+NAME                        REQUEST                                                                                                                LIMIT                                            AGE
+resourcequota/team-budget   persistentvolumeclaims: 1/2, pods: 5/10, requests.cpu: 700m/2, requests.memory: 768Mi/2Gi, requests.storage: 4Gi/8Gi   limits.cpu: 1400m/4, limits.memory: 1536Mi/4Gi   75m
+2026-10-03T17:32:54Z
+NAME                           READY   STATUS    RESTARTS   AGE     IP            NODE                    NOMINATED NODE   READINESS GATES
+pod/client-analyst             1/1     Running   0          2m27s   10.244.0.10   desktop-control-plane   <none>           <none>
+pod/client-blocked             1/1     Running   0          2m27s   10.244.0.11   desktop-control-plane   <none>           <none>
+pod/client-ingestor            1/1     Running   0          2m27s   10.244.0.9    desktop-control-plane   <none>           <none>
+pod/client-owner               1/1     Running   0          2m27s   10.244.0.8    desktop-control-plane   <none>           <none>
+pod/objects-7db59fd589-q2tfm   1/1     Running   0          7m19s   10.244.0.7    desktop-control-plane   <none>           <none>
+
+NAME                                STATUS   VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   VOLUMEATTRIBUTESCLASS   AGE     VOLUMEMODE
+persistentvolumeclaim/object-data   Bound    pvc-16633fec-8118-4370-a306-0d47641ef019   4Gi        RWO            standard       <unset>                 7m19s   Filesystem
+
+NAME                        REQUEST                                                                                                                LIMIT                                            AGE
+resourcequota/team-budget   persistentvolumeclaims: 1/2, pods: 5/10, requests.cpu: 700m/2, requests.memory: 768Mi/2Gi, requests.storage: 4Gi/8Gi   limits.cpu: 1400m/4, limits.memory: 1536Mi/4Gi   76m
+2026-10-03T17:33:54Z
+NAME                           READY   STATUS    RESTARTS   AGE     IP            NODE                    NOMINATED NODE   READINESS GATES
+pod/client-analyst             1/1     Running   0          3m28s   10.244.0.10   desktop-control-plane   <none>           <none>
+pod/client-blocked             1/1     Running   0          3m28s   10.244.0.11   desktop-control-plane   <none>           <none>
+pod/client-ingestor            1/1     Running   0          3m28s   10.244.0.9    desktop-control-plane   <none>           <none>
+pod/client-owner               1/1     Running   0          3m28s   10.244.0.8    desktop-control-plane   <none>           <none>
+pod/objects-7db59fd589-q2tfm   1/1     Running   0          8m20s   10.244.0.7    desktop-control-plane   <none>           <none>
+
+NAME                                STATUS   VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   VOLUMEATTRIBUTESCLASS   AGE     VOLUMEMODE
+persistentvolumeclaim/object-data   Bound    pvc-16633fec-8118-4370-a306-0d47641ef019   4Gi        RWO            standard       <unset>                 8m20s   Filesystem
+
+NAME                        REQUEST                                                                                                                LIMIT                                            AGE
+resourcequota/team-budget   persistentvolumeclaims: 1/2, pods: 5/10, requests.cpu: 700m/2, requests.memory: 768Mi/2Gi, requests.storage: 4Gi/8Gi   limits.cpu: 1400m/4, limits.memory: 1536Mi/4Gi   77m
+2026-10-03T17:34:55Z
+NAME                           READY   STATUS    RESTARTS   AGE     IP            NODE                    NOMINATED NODE   READINESS GATES
+pod/client-analyst             1/1     Running   0          4m28s   10.244.0.10   desktop-control-plane   <none>           <none>
+pod/client-blocked             1/1     Running   0          4m28s   10.244.0.11   desktop-control-plane   <none>           <none>
+pod/client-ingestor            1/1     Running   0          4m28s   10.244.0.9    desktop-control-plane   <none>           <none>
+pod/client-owner               1/1     Running   0          4m28s   10.244.0.8    desktop-control-plane   <none>           <none>
+pod/objects-7db59fd589-q2tfm   1/1     Running   0          9m20s   10.244.0.7    desktop-control-plane   <none>           <none>
+
+NAME                                STATUS   VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   VOLUMEATTRIBUTESCLASS   AGE     VOLUMEMODE
+persistentvolumeclaim/object-data   Bound    pvc-16633fec-8118-4370-a306-0d47641ef019   4Gi        RWO            standard       <unset>                 9m20s   Filesystem
+
+NAME                        REQUEST                                                                                                                LIMIT                                            AGE
+resourcequota/team-budget   persistentvolumeclaims: 1/2, pods: 5/10, requests.cpu: 700m/2, requests.memory: 768Mi/2Gi, requests.storage: 4Gi/8Gi   limits.cpu: 1400m/4, limits.memory: 1536Mi/4Gi   78m
