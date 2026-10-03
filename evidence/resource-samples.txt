@@ -1243,3 +1243,81 @@ resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cp
 2026-10-03T16:38:52Z
 NAME                        REQUEST                                                                                                       LIMIT                                   AGE
 resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   22m
+2026-10-03T16:39:03Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   22m
+2026-10-03T16:39:13Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   22m
+2026-10-03T16:39:23Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   23m
+2026-10-03T16:39:34Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   23m
+2026-10-03T16:39:44Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   23m
+2026-10-03T16:39:54Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   23m
+2026-10-03T16:40:05Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   23m
+2026-10-03T16:40:15Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   23m
+2026-10-03T16:40:25Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   24m
+2026-10-03T16:40:36Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   24m
+2026-10-03T16:40:46Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   24m
+2026-10-03T16:40:56Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   24m
+2026-10-03T16:41:07Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   24m
+2026-10-03T16:41:17Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   24m
+2026-10-03T16:41:27Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   25m
+2026-10-03T16:41:38Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   25m
+2026-10-03T16:41:48Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   25m
+2026-10-03T16:41:58Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   25m
+2026-10-03T16:42:09Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   25m
+2026-10-03T16:42:19Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   26m
+2026-10-03T16:42:29Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   26m
+2026-10-03T16:42:40Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   26m
+2026-10-03T16:42:50Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   26m
+2026-10-03T16:43:00Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   26m
+2026-10-03T16:43:10Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   26m
+2026-10-03T16:43:21Z
+NAME                        REQUEST                                                                                                       LIMIT                                   AGE
+resourcequota/team-budget   persistentvolumeclaims: 0/2, pods: 0/10, requests.cpu: 0/2, requests.memory: 0/2Gi, requests.storage: 0/8Gi   limits.cpu: 0/4, limits.memory: 0/4Gi   27m
