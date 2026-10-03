@@ -1,0 +1,6 @@
+private/
+*.json
+*kubeconfig*
+*.key
+*.pem
+.env
