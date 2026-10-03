@@ -1,0 +1,108 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    deployment.kubernetes.io/revision: "1"
+    kubectl.kubernetes.io/last-applied-configuration: |
+      {"apiVersion":"apps/v1","kind":"Deployment","metadata":{"annotations":{},"name":"objects","namespace":"group04"},"spec":{"replicas":1,"selector":{"matchLabels":{"app":"objects"}},"strategy":{"type":"Recreate"},"template":{"metadata":{"labels":{"app":"objects"}},"spec":{"automountServiceAccountToken":false,"containers":[{"args":["mini","-dir=/data","-s3.config=/auth/s3.json"],"command":["weed"],"image":"chrislusf/seaweedfs:latest","name":"store","ports":[{"containerPort":8333,"name":"s3"}],"readinessProbe":{"initialDelaySeconds":5,"periodSeconds":3,"tcpSocket":{"port":"s3"}},"resources":{"limits":{"cpu":"1","memory":"1Gi"},"requests":{"cpu":"500m","memory":"512Mi"}},"securityContext":{"allowPrivilegeEscalation":false,"capabilities":{"drop":["ALL"]},"seccompProfile":{"type":"RuntimeDefault"}},"volumeMounts":[{"mountPath":"/data","name":"data"},{"mountPath":"/auth","name":"auth","readOnly":true}]}],"securityContext":{"fsGroup":1000,"runAsGroup":1000,"runAsNonRoot":true,"runAsUser":1000},"volumes":[{"name":"data","persistentVolumeClaim":{"claimName":"object-data"}},{"name":"auth","secret":{"secretName":"s3-config"}}]}}}}
+  creationTimestamp: "2026-10-03T15:43:50Z"
+  generation: 1
+  name: objects
+  namespace: group04
+  resourceVersion: "5976"
+  uid: 7b0effcd-a425-45d7-8943-36975f056b56
+spec:
+  progressDeadlineSeconds: 600
+  replicas: 1
+  revisionHistoryLimit: 10
+  selector:
+    matchLabels:
+      app: objects
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: objects
+    spec:
+      automountServiceAccountToken: false
+      containers:
+      - args:
+        - mini
+        - -dir=/data
+        - -s3.config=/auth/s3.json
+        command:
+        - weed
+        image: chrislusf/seaweedfs:latest
+        imagePullPolicy: Always
+        name: store
+        ports:
+        - containerPort: 8333
+          name: s3
+          protocol: TCP
+        readinessProbe:
+          failureThreshold: 3
+          initialDelaySeconds: 5
+          periodSeconds: 3
+          successThreshold: 1
+          tcpSocket:
+            port: s3
+          timeoutSeconds: 1
+        resources:
+          limits:
+            cpu: "1"
+            memory: 1Gi
+          requests:
+            cpu: 500m
+            memory: 512Mi
+        securityContext:
+          allowPrivilegeEscalation: false
+          capabilities:
+            drop:
+            - ALL
+          seccompProfile:
+            type: RuntimeDefault
+        terminationMessagePath: /dev/termination-log
+        terminationMessagePolicy: File
+        volumeMounts:
+        - mountPath: /data
+          name: data
+        - mountPath: /auth
+          name: auth
+          readOnly: true
+      dnsPolicy: ClusterFirst
+      restartPolicy: Always
+      schedulerName: default-scheduler
+      securityContext:
+        fsGroup: 1000
+        runAsGroup: 1000
+        runAsNonRoot: true
+        runAsUser: 1000
+      terminationGracePeriodSeconds: 30
+      volumes:
+      - name: data
+        persistentVolumeClaim:
+          claimName: object-data
+      - name: auth
+        secret:
+          defaultMode: 420
+          secretName: s3-config
+status:
+  conditions:
+  - lastTransitionTime: "2026-10-03T15:43:50Z"
+    lastUpdateTime: "2026-10-03T15:43:50Z"
+    message: Deployment does not have minimum availability.
+    reason: MinimumReplicasUnavailable
+    status: "False"
+    type: Available
+  - lastTransitionTime: "2026-10-03T15:43:50Z"
+    lastUpdateTime: "2026-10-03T15:43:50Z"
+    message: ReplicaSet "objects-7db59fd589" is progressing.
+    reason: ReplicaSetUpdated
+    status: "True"
+    type: Progressing
+  observedGeneration: 1
+  replicas: 1
+  terminatingReplicas: 0
+  unavailableReplicas: 1
+  updatedReplicas: 1
