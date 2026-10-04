@@ -1,1 +1,0 @@
-{"bucket": "research-release", "bytes": 0, "error": "NoSuchKey", "http": 404, "key": "auth-probe.txt", "ms": 9.618437999961316, "ok": false, "op": "get", "principal": "owner", "request_id": "18DB4521EF6CCD7BBD0378D3", "utc": "2026-10-04T08:08:08.867043+00:00"}
