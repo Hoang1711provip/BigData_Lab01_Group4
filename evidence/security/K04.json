@@ -1,0 +1,21 @@
+{
+  "command": "kubectl --kubeconfig=<observer> get secret s3-config",
+  "exit_code": 1,
+  "expected": "Deny",
+  "forbidden_names_observer": true,
+  "id": "K04",
+  "principal": "system:serviceaccount:group04:observer",
+  "request": "read secret s3-config",
+  "result": "pass",
+  "stderr": {
+    "head": [
+      "Error from server (Forbidden): secrets \"s3-config\" is forbidden: User \"system:serviceaccount:group04:observer\" cannot get resource \"secrets\" in API group \"\" in the namespace \"group04\""
+    ],
+    "lines": 1
+  },
+  "stdout": {
+    "head": [],
+    "lines": 0
+  },
+  "utc": "2026-10-04T09:01:54.460178+00:00"
+}

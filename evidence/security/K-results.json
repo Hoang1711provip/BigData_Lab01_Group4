@@ -1,0 +1,140 @@
+[
+  {
+    "command": "kubectl --kubeconfig=<observer> get pods",
+    "exit_code": 0,
+    "expected": "Allow",
+    "forbidden_names_observer": false,
+    "id": "K01",
+    "principal": "system:serviceaccount:group04:observer",
+    "request": "list pods",
+    "result": "pass",
+    "stderr": {
+      "head": [],
+      "lines": 0
+    },
+    "stdout": {
+      "head": [
+        "NAME                       READY   STATUS    RESTARTS   AGE",
+        "analyst                    1/1     Running   0          74m",
+        "blocked                    1/1     Running   0          74m",
+        "ingestor                   1/1     Running   0          74m",
+        "objects-6db89bb7c7-2btxd   1/1     Running   0          79m",
+        "owner                      1/1     Running   0          74m"
+      ],
+      "lines": 6
+    },
+    "utc": "2026-10-04T09:01:54.157137+00:00"
+  },
+  {
+    "command": "kubectl --kubeconfig=<observer> get events",
+    "exit_code": 0,
+    "expected": "Allow",
+    "forbidden_names_observer": false,
+    "id": "K02",
+    "principal": "system:serviceaccount:group04:observer",
+    "request": "get events",
+    "result": "pass",
+    "stderr": {
+      "head": [
+        "No resources found in group04 namespace."
+      ],
+      "lines": 1
+    },
+    "stdout": {
+      "head": [],
+      "lines": 0
+    },
+    "utc": "2026-10-04T09:01:54.252290+00:00"
+  },
+  {
+    "command": "kubectl --kubeconfig=<observer> logs objects-6db89bb7c7-2btxd",
+    "exit_code": 0,
+    "expected": "Allow",
+    "forbidden_names_observer": false,
+    "id": "K03",
+    "principal": "system:serviceaccount:group04:observer",
+    "request": "read storage pod logs",
+    "result": "pass",
+    "stderr": {
+      "head": [],
+      "lines": 0
+    },
+    "stdout": {
+      "head": [
+        "",
+        "  Starting SeaweedFS Mini ...",
+        "  Master       starting",
+        "  Master       ready     0.2s",
+        "  Volume       starting",
+        "  Volume       ready     0.2s",
+        "  Filer        starting",
+        "W1004 07:42:38.079324 filer_server.go:227 skipping default store dir in /data/filerldb2"
+      ],
+      "lines": 44
+    },
+    "utc": "2026-10-04T09:01:54.361968+00:00"
+  },
+  {
+    "command": "kubectl --kubeconfig=<observer> get secret s3-config",
+    "exit_code": 1,
+    "expected": "Deny",
+    "forbidden_names_observer": true,
+    "id": "K04",
+    "principal": "system:serviceaccount:group04:observer",
+    "request": "read secret s3-config",
+    "result": "pass",
+    "stderr": {
+      "head": [
+        "Error from server (Forbidden): secrets \"s3-config\" is forbidden: User \"system:serviceaccount:group04:observer\" cannot get resource \"secrets\" in API group \"\" in the namespace \"group04\""
+      ],
+      "lines": 1
+    },
+    "stdout": {
+      "head": [],
+      "lines": 0
+    },
+    "utc": "2026-10-04T09:01:54.460178+00:00"
+  },
+  {
+    "command": "kubectl --kubeconfig=<observer> create -f positive.yaml --dry-run=server",
+    "exit_code": 1,
+    "expected": "Deny",
+    "forbidden_names_observer": true,
+    "id": "K05",
+    "principal": "system:serviceaccount:group04:observer",
+    "request": "create pod (server dry-run)",
+    "result": "pass",
+    "stderr": {
+      "head": [
+        "Error from server (Forbidden): error when creating \"positive.yaml\": pods is forbidden: User \"system:serviceaccount:group04:observer\" cannot create resource \"pods\" in API group \"\" in the namespace \"group04\""
+      ],
+      "lines": 1
+    },
+    "stdout": {
+      "head": [],
+      "lines": 0
+    },
+    "utc": "2026-10-04T09:01:54.607055+00:00"
+  },
+  {
+    "command": "kubectl --kubeconfig=<observer> delete pod objects-6db89bb7c7-2btxd --dry-run=server",
+    "exit_code": 1,
+    "expected": "Deny",
+    "forbidden_names_observer": true,
+    "id": "K06",
+    "principal": "system:serviceaccount:group04:observer",
+    "request": "delete storage pod (server dry-run)",
+    "result": "pass",
+    "stderr": {
+      "head": [
+        "Error from server (Forbidden): pods \"objects-6db89bb7c7-2btxd\" is forbidden: User \"system:serviceaccount:group04:observer\" cannot delete resource \"pods\" in API group \"\" in the namespace \"group04\""
+      ],
+      "lines": 1
+    },
+    "stdout": {
+      "head": [],
+      "lines": 0
+    },
+    "utc": "2026-10-04T09:01:54.700111+00:00"
+  }
+]

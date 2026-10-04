@@ -1,0 +1,21 @@
+{
+  "command": "kubectl --kubeconfig=<observer> get events",
+  "exit_code": 0,
+  "expected": "Allow",
+  "forbidden_names_observer": false,
+  "id": "K02",
+  "principal": "system:serviceaccount:group04:observer",
+  "request": "get events",
+  "result": "pass",
+  "stderr": {
+    "head": [
+      "No resources found in group04 namespace."
+    ],
+    "lines": 1
+  },
+  "stdout": {
+    "head": [],
+    "lines": 0
+  },
+  "utc": "2026-10-04T09:01:54.252290+00:00"
+}

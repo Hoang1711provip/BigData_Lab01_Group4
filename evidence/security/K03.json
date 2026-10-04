@@ -1,0 +1,28 @@
+{
+  "command": "kubectl --kubeconfig=<observer> logs objects-6db89bb7c7-2btxd",
+  "exit_code": 0,
+  "expected": "Allow",
+  "forbidden_names_observer": false,
+  "id": "K03",
+  "principal": "system:serviceaccount:group04:observer",
+  "request": "read storage pod logs",
+  "result": "pass",
+  "stderr": {
+    "head": [],
+    "lines": 0
+  },
+  "stdout": {
+    "head": [
+      "",
+      "  Starting SeaweedFS Mini ...",
+      "  Master       starting",
+      "  Master       ready     0.2s",
+      "  Volume       starting",
+      "  Volume       ready     0.2s",
+      "  Filer        starting",
+      "W1004 07:42:38.079324 filer_server.go:227 skipping default store dir in /data/filerldb2"
+    ],
+    "lines": 44
+  },
+  "utc": "2026-10-04T09:01:54.361968+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "command": "kubectl --kubeconfig=<observer> get pods",
+  "exit_code": 0,
+  "expected": "Allow",
+  "forbidden_names_observer": false,
+  "id": "K01",
+  "principal": "system:serviceaccount:group04:observer",
+  "request": "list pods",
+  "result": "pass",
+  "stderr": {
+    "head": [],
+    "lines": 0
+  },
+  "stdout": {
+    "head": [
+      "NAME                       READY   STATUS    RESTARTS   AGE",
+      "analyst                    1/1     Running   0          74m",
+      "blocked                    1/1     Running   0          74m",
+      "ingestor                   1/1     Running   0          74m",
+      "objects-6db89bb7c7-2btxd   1/1     Running   0          79m",
+      "owner                      1/1     Running   0          74m"
+    ],
+    "lines": 6
+  },
+  "utc": "2026-10-04T09:01:54.157137+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "command": "kubectl --kubeconfig=<observer> create -f positive.yaml --dry-run=server",
+  "exit_code": 1,
+  "expected": "Deny",
+  "forbidden_names_observer": true,
+  "id": "K05",
+  "principal": "system:serviceaccount:group04:observer",
+  "request": "create pod (server dry-run)",
+  "result": "pass",
+  "stderr": {
+    "head": [
+      "Error from server (Forbidden): error when creating \"positive.yaml\": pods is forbidden: User \"system:serviceaccount:group04:observer\" cannot create resource \"pods\" in API group \"\" in the namespace \"group04\""
+    ],
+    "lines": 1
+  },
+  "stdout": {
+    "head": [],
+    "lines": 0
+  },
+  "utc": "2026-10-04T09:01:54.607055+00:00"
+}

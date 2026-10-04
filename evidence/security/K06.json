@@ -1,0 +1,21 @@
+{
+  "command": "kubectl --kubeconfig=<observer> delete pod objects-6db89bb7c7-2btxd --dry-run=server",
+  "exit_code": 1,
+  "expected": "Deny",
+  "forbidden_names_observer": true,
+  "id": "K06",
+  "principal": "system:serviceaccount:group04:observer",
+  "request": "delete storage pod (server dry-run)",
+  "result": "pass",
+  "stderr": {
+    "head": [
+      "Error from server (Forbidden): pods \"objects-6db89bb7c7-2btxd\" is forbidden: User \"system:serviceaccount:group04:observer\" cannot delete resource \"pods\" in API group \"\" in the namespace \"group04\""
+    ],
+    "lines": 1
+  },
+  "stdout": {
+    "head": [],
+    "lines": 0
+  },
+  "utc": "2026-10-04T09:01:54.700111+00:00"
+}
