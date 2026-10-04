@@ -1,0 +1,185 @@
+apiVersion: v1
+items:
+- apiVersion: v1
+  kind: Pod
+  metadata:
+    creationTimestamp: "2026-10-04T07:42:33Z"
+    generateName: objects-6db89bb7c7-
+    generation: 1
+    labels:
+      app: objects
+      pod-template-hash: 6db89bb7c7
+    name: objects-6db89bb7c7-2btxd
+    namespace: group04
+    ownerReferences:
+    - apiVersion: apps/v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: ReplicaSet
+      name: objects-6db89bb7c7
+      uid: ea8f75fc-6e0b-442a-b7c7-78beee89fc46
+    resourceVersion: "21599"
+    uid: 2db96ca0-9728-4d1f-af1c-8832cca53ada
+  spec:
+    automountServiceAccountToken: false
+    containers:
+    - args:
+      - mini
+      - -dir=/data
+      - -s3.config=/auth/s3.json
+      command:
+      - weed
+      image: chrislusf/seaweedfs@sha256:4e61d15fd35994cb1e43e1e553dff106794841fd9a99ade2fc8c8bfce4d7872d
+      imagePullPolicy: Always
+      name: store
+      ports:
+      - containerPort: 8333
+        name: s3
+        protocol: TCP
+      readinessProbe:
+        failureThreshold: 3
+        initialDelaySeconds: 5
+        periodSeconds: 3
+        successThreshold: 1
+        tcpSocket:
+          port: s3
+        timeoutSeconds: 1
+      resources:
+        limits:
+          cpu: "1"
+          memory: 1Gi
+        requests:
+          cpu: 500m
+          memory: 512Mi
+      securityContext:
+        allowPrivilegeEscalation: false
+        capabilities:
+          drop:
+          - ALL
+        seccompProfile:
+          type: RuntimeDefault
+      terminationMessagePath: /dev/termination-log
+      terminationMessagePolicy: File
+      volumeMounts:
+      - mountPath: /data
+        name: data
+      - mountPath: /auth
+        name: auth
+        readOnly: true
+    dnsPolicy: ClusterFirst
+    enableServiceLinks: true
+    nodeName: desktop-control-plane
+    preemptionPolicy: PreemptLowerPriority
+    priority: 0
+    restartPolicy: Always
+    schedulerName: default-scheduler
+    securityContext:
+      fsGroup: 1000
+      runAsGroup: 1000
+      runAsNonRoot: true
+      runAsUser: 1000
+    serviceAccount: default
+    serviceAccountName: default
+    terminationGracePeriodSeconds: 30
+    tolerations:
+    - effect: NoExecute
+      key: node.kubernetes.io/not-ready
+      operator: Exists
+      tolerationSeconds: 300
+    - effect: NoExecute
+      key: node.kubernetes.io/unreachable
+      operator: Exists
+      tolerationSeconds: 300
+    volumes:
+    - name: data
+      persistentVolumeClaim:
+        claimName: object-data
+    - name: auth
+      secret:
+        defaultMode: 420
+        secretName: s3-config
+  status:
+    allocatedResources:
+      cpu: 500m
+      memory: 512Mi
+    conditions:
+    - lastProbeTime: null
+      lastTransitionTime: "2026-10-04T07:42:33Z"
+      observedGeneration: 1
+      status: "True"
+      type: PodReadyToStartContainers
+    - lastProbeTime: null
+      lastTransitionTime: "2026-10-04T07:42:33Z"
+      observedGeneration: 1
+      status: "True"
+      type: Initialized
+    - lastProbeTime: null
+      lastTransitionTime: "2026-10-04T07:42:43Z"
+      observedGeneration: 1
+      status: "True"
+      type: Ready
+    - lastProbeTime: null
+      lastTransitionTime: "2026-10-04T07:42:43Z"
+      observedGeneration: 1
+      status: "True"
+      type: ContainersReady
+    - lastProbeTime: null
+      lastTransitionTime: "2026-10-04T07:42:33Z"
+      observedGeneration: 1
+      status: "True"
+      type: PodScheduled
+    containerStatuses:
+    - allocatedResources:
+        cpu: 500m
+        memory: 512Mi
+      containerID: containerd://dff4ab1c6dcdb4b7b7d6b2d2c24194d560fbedf62757ced60de039b2cc3ee47d
+      image: docker.io/chrislusf/seaweedfs:latest
+      imageID: docker.io/chrislusf/seaweedfs@sha256:4e61d15fd35994cb1e43e1e553dff106794841fd9a99ade2fc8c8bfce4d7872d
+      lastState: {}
+      name: store
+      ready: true
+      resources:
+        limits:
+          cpu: "1"
+          memory: 1Gi
+        requests:
+          cpu: 500m
+          memory: 512Mi
+      restartCount: 0
+      started: true
+      state:
+        running:
+          startedAt: "2026-10-04T07:42:37Z"
+      user:
+        linux:
+          gid: 1000
+          supplementalGroups:
+          - 1000
+          uid: 1000
+      volumeMounts:
+      - mountPath: /data
+        name: data
+      - mountPath: /auth
+        name: auth
+        readOnly: true
+        recursiveReadOnly: Disabled
+    hostIP: 172.18.0.2
+    hostIPs:
+    - ip: 172.18.0.2
+    observedGeneration: 1
+    phase: Running
+    podIP: 10.244.0.6
+    podIPs:
+    - ip: 10.244.0.6
+    qosClass: Burstable
+    resources:
+      limits:
+        cpu: "1"
+        memory: 1Gi
+      requests:
+        cpu: 489m
+        memory: 512Mi
+    startTime: "2026-10-04T07:42:33Z"
+kind: List
+metadata:
+  resourceVersion: ""

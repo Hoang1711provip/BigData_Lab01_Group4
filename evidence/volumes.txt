@@ -1,0 +1,1 @@
+[{"name":"data","persistentVolumeClaim":{"claimName":"object-data"}},{"name":"auth","secret":{"defaultMode":420,"secretName":"s3-config"}}]

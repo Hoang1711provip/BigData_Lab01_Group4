@@ -1,0 +1,15 @@
+NAME                           READY   STATUS    RESTARTS   AGE     IP            NODE                    NOMINATED NODE   READINESS GATES
+pod/analyst                    1/1     Running   0          4m3s    10.244.0.9    desktop-control-plane   <none>           <none>
+pod/blocked                    1/1     Running   0          4m3s    10.244.0.10   desktop-control-plane   <none>           <none>
+pod/ingestor                   1/1     Running   0          4m4s    10.244.0.8    desktop-control-plane   <none>           <none>
+pod/objects-6db89bb7c7-2btxd   1/1     Running   0          8m37s   10.244.0.6    desktop-control-plane   <none>           <none>
+pod/owner                      1/1     Running   0          4m4s    10.244.0.7    desktop-control-plane   <none>           <none>
+
+NAME                                STATUS   VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   VOLUMEATTRIBUTESCLASS   AGE   VOLUMEMODE
+persistentvolumeclaim/object-data   Bound    pvc-6a25b7c2-6f36-4527-b3d3-276ee8159cb4   4Gi        RWO            standard       <unset>                 13h   Filesystem
+
+NAME              TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)    AGE   SELECTOR
+service/objects   ClusterIP   10.96.129.146   <none>        8333/TCP   13h   app=objects
+
+NAME                                           ADDRESSTYPE   PORTS   ENDPOINTS    AGE
+endpointslice.discovery.k8s.io/objects-w26jr   IPv4          8333    10.244.0.6   13h
