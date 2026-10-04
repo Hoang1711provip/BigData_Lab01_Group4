@@ -1,0 +1,13 @@
+Task5_Measure observed interruption
+
+Dựa theo file canary.jsonl:
+
+t_failure = 37.13
+
+t_stable = 44.16
+
+Có 7 dòng ghi lỗi EndpointConnectionErrror
+
+T_observed = t_stable - t_failure = 44.16 - 37.13 = 7.03s
+
+Vậy T_observed đã <= 120s
