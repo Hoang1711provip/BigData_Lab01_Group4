@@ -1,0 +1,70 @@
+===== Sun Oct  4 16:11:12 SEAST 2026 =====
+NAME                       READY   STATUS    RESTARTS   AGE   IP            NODE                    NOMINATED NODE   READINESS GATES
+analyst                    1/1     Running   0          84m   10.244.0.9    desktop-control-plane   <none>           <none>
+blocked                    1/1     Running   0          84m   10.244.0.10   desktop-control-plane   <none>           <none>
+ingestor                   1/1     Running   0          84m   10.244.0.8    desktop-control-plane   <none>           <none>
+objects-6db89bb7c7-2btxd   1/1     Running   0          88m   10.244.0.6    desktop-control-plane   <none>           <none>
+owner                      1/1     Running   0          84m   10.244.0.7    desktop-control-plane   <none>           <none>
+===== Sun Oct  4 16:11:18 SEAST 2026 =====
+NAME                       READY   STATUS    RESTARTS   AGE   IP            NODE                    NOMINATED NODE   READINESS GATES
+analyst                    1/1     Running   0          84m   10.244.0.9    desktop-control-plane   <none>           <none>
+blocked                    1/1     Running   0          84m   10.244.0.10   desktop-control-plane   <none>           <none>
+ingestor                   1/1     Running   0          84m   10.244.0.8    desktop-control-plane   <none>           <none>
+objects-6db89bb7c7-2btxd   1/1     Running   0          88m   10.244.0.6    desktop-control-plane   <none>           <none>
+owner                      1/1     Running   0          84m   10.244.0.7    desktop-control-plane   <none>           <none>
+===== Sun Oct  4 16:11:24 SEAST 2026 =====
+NAME                       READY   STATUS    RESTARTS   AGE   IP            NODE                    NOMINATED NODE   READINESS GATES
+analyst                    1/1     Running   0          84m   10.244.0.9    desktop-control-plane   <none>           <none>
+blocked                    1/1     Running   0          84m   10.244.0.10   desktop-control-plane   <none>           <none>
+ingestor                   1/1     Running   0          84m   10.244.0.8    desktop-control-plane   <none>           <none>
+objects-6db89bb7c7-2btxd   1/1     Running   0          88m   10.244.0.6    desktop-control-plane   <none>           <none>
+owner                      1/1     Running   0          84m   10.244.0.7    desktop-control-plane   <none>           <none>
+===== Sun Oct  4 16:11:30 SEAST 2026 =====
+NAME                       READY   STATUS    RESTARTS   AGE   IP            NODE                    NOMINATED NODE   READINESS GATES
+analyst                    1/1     Running   0          84m   10.244.0.9    desktop-control-plane   <none>           <none>
+blocked                    1/1     Running   0          84m   10.244.0.10   desktop-control-plane   <none>           <none>
+ingestor                   1/1     Running   0          84m   10.244.0.8    desktop-control-plane   <none>           <none>
+objects-6db89bb7c7-2btxd   1/1     Running   0          88m   10.244.0.6    desktop-control-plane   <none>           <none>
+owner                      1/1     Running   0          84m   10.244.0.7    desktop-control-plane   <none>           <none>
+===== Sun Oct  4 16:11:36 SEAST 2026 =====
+NAME                       READY   STATUS    RESTARTS   AGE   IP            NODE                    NOMINATED NODE   READINESS GATES
+analyst                    1/1     Running   0          84m   10.244.0.9    desktop-control-plane   <none>           <none>
+blocked                    1/1     Running   0          84m   10.244.0.10   desktop-control-plane   <none>           <none>
+ingestor                   1/1     Running   0          84m   10.244.0.8    desktop-control-plane   <none>           <none>
+objects-6db89bb7c7-2btxd   1/1     Running   0          89m   10.244.0.6    desktop-control-plane   <none>           <none>
+owner                      1/1     Running   0          84m   10.244.0.7    desktop-control-plane   <none>           <none>
+===== Sun Oct  4 16:11:42 SEAST 2026 =====
+NAME                       READY   STATUS    RESTARTS   AGE   IP            NODE                    NOMINATED NODE   READINESS GATES
+analyst                    1/1     Running   0          84m   10.244.0.9    desktop-control-plane   <none>           <none>
+blocked                    1/1     Running   0          84m   10.244.0.10   desktop-control-plane   <none>           <none>
+ingestor                   1/1     Running   0          84m   10.244.0.8    desktop-control-plane   <none>           <none>
+objects-6db89bb7c7-2btxd   1/1     Running   0          89m   10.244.0.6    desktop-control-plane   <none>           <none>
+owner                      1/1     Running   0          84m   10.244.0.7    desktop-control-plane   <none>           <none>
+===== Sun Oct  4 16:11:47 SEAST 2026 =====
+NAME                       READY   STATUS    RESTARTS   AGE   IP            NODE                    NOMINATED NODE   READINESS GATES
+analyst                    1/1     Running   0          84m   10.244.0.9    desktop-control-plane   <none>           <none>
+blocked                    1/1     Running   0          84m   10.244.0.10   desktop-control-plane   <none>           <none>
+ingestor                   1/1     Running   0          84m   10.244.0.8    desktop-control-plane   <none>           <none>
+objects-6db89bb7c7-2btxd   1/1     Running   0          89m   10.244.0.6    desktop-control-plane   <none>           <none>
+owner                      1/1     Running   0          84m   10.244.0.7    desktop-control-plane   <none>           <none>
+===== Sun Oct  4 16:11:53 SEAST 2026 =====
+NAME                       READY   STATUS    RESTARTS   AGE   IP            NODE                    NOMINATED NODE   READINESS GATES
+analyst                    1/1     Running   0          84m   10.244.0.9    desktop-control-plane   <none>           <none>
+blocked                    1/1     Running   0          84m   10.244.0.10   desktop-control-plane   <none>           <none>
+ingestor                   1/1     Running   0          84m   10.244.0.8    desktop-control-plane   <none>           <none>
+objects-6db89bb7c7-2btxd   1/1     Running   0          89m   10.244.0.6    desktop-control-plane   <none>           <none>
+owner                      1/1     Running   0          84m   10.244.0.7    desktop-control-plane   <none>           <none>
+===== Sun Oct  4 16:11:58 SEAST 2026 =====
+NAME                       READY   STATUS    RESTARTS   AGE   IP            NODE                    NOMINATED NODE   READINESS GATES
+analyst                    1/1     Running   0          84m   10.244.0.9    desktop-control-plane   <none>           <none>
+blocked                    1/1     Running   0          84m   10.244.0.10   desktop-control-plane   <none>           <none>
+ingestor                   1/1     Running   0          84m   10.244.0.8    desktop-control-plane   <none>           <none>
+objects-6db89bb7c7-2btxd   1/1     Running   0          89m   10.244.0.6    desktop-control-plane   <none>           <none>
+owner                      1/1     Running   0          84m   10.244.0.7    desktop-control-plane   <none>           <none>
+===== Sun Oct  4 16:12:04 SEAST 2026 =====
+NAME                       READY   STATUS    RESTARTS   AGE   IP            NODE                    NOMINATED NODE   READINESS GATES
+analyst                    1/1     Running   0          84m   10.244.0.9    desktop-control-plane   <none>           <none>
+blocked                    1/1     Running   0          84m   10.244.0.10   desktop-control-plane   <none>           <none>
+ingestor                   1/1     Running   0          84m   10.244.0.8    desktop-control-plane   <none>           <none>
+objects-6db89bb7c7-2btxd   1/1     Running   0          89m   10.244.0.6    desktop-control-plane   <none>           <none>
+owner                      1/1     Running   0          84m   10.244.0.7    desktop-control-plane   <none>           <none>

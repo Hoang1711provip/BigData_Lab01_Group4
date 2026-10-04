@@ -1,0 +1,76 @@
+TASK 4 — ĐO LƯỜNG ĐƯỜNG TRUYỀN DỮ LIỆU
+
+1. Thiết lập thí nghiệm
+
+* Mỗi trial sử dụng 32 object khác nhau, mỗi object có kích thước 4 MiB.
+* Tổng dữ liệu mỗi trial: 32 × 4 MiB = 128 MiB.
+* Có 6 trial: r1-c1, r1-c4, r2-c4, r2-c1, r3-c1, r3-c4.
+* Hai mức concurrency được sử dụng là C=1 và C=4.
+* Cùng client ingestor, storage service, credentials, kích thước object và tài nguyên storage được sử dụng trong toàn bộ thí nghiệm; chỉ thay đổi mức concurrency.
+* Một lần đọc fixture được thực hiện trước thí nghiệm để warm-up và không được tính vào 6 trial đo chính.
+* Mỗi trial gồm hai phase: PUT 32 object và GET 32 object kèm kiểm tra SHA-256.
+
+2. Kết quả từng trial
+
+Trial    C    PUT goodput    PUT p95    GET goodput    GET p95    PUT      GET verified
+r1-c1    1    84.743 MiB/s   65.772 ms  292.983 MiB/s   23.798 ms  32/32    32/32
+r1-c4    4    84.070 MiB/s   287.820 ms 183.854 MiB/s  104.892 ms  32/32    32/32
+r2-c1    1    92.741 MiB/s   53.959 ms  299.244 MiB/s   24.973 ms  32/32    32/32
+r2-c4    4    100.431 MiB/s  253.934 ms 213.353 MiB/s  101.934 ms  32/32    32/32
+r3-c1    1    95.820 MiB/s   60.288 ms  285.944 MiB/s   31.679 ms  32/32    32/32
+r3-c4    4    99.810 MiB/s   223.630 ms 219.661 MiB/s   98.403 ms  32/32    32/32
+
+3. Thành công và tính toàn vẹn dữ liệu
+
+* PUT: 192/192 request thành công, đạt 100%.
+* GET: 192/192 request thành công và đều vượt qua kiểm tra SHA-256, đạt 100%.
+* Số request thất bại: 0.
+* Số trường hợp sai SHA-256: 0.
+
+4. So sánh goodput giữa C=1 và C=4
+
+PUT:
+
+* Median goodput với C=1: 92.741 MiB/s.
+* Median goodput với C=4: 99.810 MiB/s.
+* Tỷ lệ C4/C1 = 99.810 / 92.741 = 1.076 lần.
+* Goodput PUT tăng khoảng 7.62% khi tăng concurrency từ 1 lên 4.
+
+GET:
+
+* Median goodput với C=1: 292.983 MiB/s.
+* Median goodput với C=4: 213.353 MiB/s.
+* Tỷ lệ C4/C1 = 213.353 / 292.983 = 0.728 lần.
+* Goodput GET giảm khoảng 27.18% khi tăng concurrency từ 1 lên 4.
+
+5. Độ trễ request
+
+* Khi C=4, p95 latency tăng đáng kể so với C=1 ở cả PUT và GET.
+* PUT p95 với C=1 nằm trong khoảng 53.959–65.772 ms; với C=4 nằm trong khoảng 223.630–287.820 ms.
+* GET p95 với C=1 nằm trong khoảng 23.798–31.679 ms; với C=4 nằm trong khoảng 98.403–104.892 ms.
+* p95 được tính riêng cho từng trial trên các request thành công, không lấy trung bình các p95 để tạo thành một pooled p95.
+
+6. Quan sát tài nguyên và trạng thái Pod
+
+* Trong khoảng thời gian được ghi lại, các Pod đều ở trạng thái 1/1 Running.
+* Pod ingestor không có restart.
+* Pod storage không có restart.
+* Pod ingestor và storage vẫn được chạy trên node desktop-control-plane.
+* File theo dõi tài nguyên hiện có thông tin về trạng thái Pod, số lần restart và node placement.
+* Không có dữ liệu CPU/RAM từ kubectl top pod trong file evidence, vì vậy không thể kết luận về mức sử dụng CPU hoặc RAM từ bằng chứng này.
+
+7. Phân tích và kết luận
+
+Giả thuyết của thí nghiệm là: với payload và tài nguyên storage cố định, tăng concurrency từ 1 lên 4 sẽ cải thiện application transfer goodput.
+
+Kết quả không ủng hộ giả thuyết một cách nhất quán.
+
+Đối với PUT, concurrency C=4 làm median goodput tăng 7.62%, từ 92.741 MiB/s lên 99.810 MiB/s.
+
+Tuy nhiên, đối với GET, concurrency C=4 làm median goodput giảm 27.18%, từ 292.983 MiB/s xuống 213.353 MiB/s.
+
+Đồng thời, C=4 làm p95 latency tăng đáng kể ở cả PUT và GET.
+
+Do đó, kết quả của thí nghiệm là negative/inconclusive đối với giả thuyết tổng quát: concurrency=4 không cải thiện goodput một cách nhất quán trên cả hai phase của đường truyền dữ liệu.
+
+Các yếu tố có thể ảnh hưởng đến kết quả gồm cache, CPU, network, backend/storage và sự cạnh tranh tài nguyên trên cluster dùng chung. Do không có số liệu CPU/RAM trong evidence nên chưa thể xác định mức độ ảnh hưởng của CPU hoặc RAM.
