@@ -1,0 +1,3 @@
+nc: 10.244.0.9 (10.244.0.9:8888): Operation timed out
+sh: curl: not found
+command terminated with exit code 127

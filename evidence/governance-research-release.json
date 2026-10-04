@@ -1,0 +1,14 @@
+{
+  "bucket": "research-release",
+  "owner": "student-A",
+  "steward": "student-E",
+  "classification": "synthetic-public-internal",
+  "purpose": "lab distribution",
+  "retention": "assessment completion + 7 days",
+  "retention_enforced": false,
+  "cleanup_owner": "instructor",
+  "access_policy": "bucket-scoped roles",
+  "verified_tests": ["S04", "S05", "S06", "S07", "S08", "S09", "S12"],
+  "approved_by": "student-C",
+  "policy_revision": "3144919342c9dd27ebb04424da8cc7b10fa6fdc1"
+}

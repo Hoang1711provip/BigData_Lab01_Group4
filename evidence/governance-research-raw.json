@@ -1,0 +1,14 @@
+{
+  "bucket": "research-raw",
+  "owner": "student-A",
+  "steward": "student-E",
+  "classification": "synthetic-restricted",
+  "purpose": "lab ingestion",
+  "retention": "assessment completion + 7 days",
+  "retention_enforced": false,
+  "cleanup_owner": "instructor",
+  "access_policy": "bucket-scoped roles",
+  "verified_tests": ["S01", "S02", "S03", "S10", "S11"],
+  "approved_by": "student-C",
+  "policy_revision": "3144919342c9dd27ebb04424da8cc7b10fa6fdc1"
+}

@@ -1,0 +1,1357 @@
+{
+    "apiVersion": "v1",
+    "items": [
+        {
+            "apiVersion": "v1",
+            "count": 3,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-04T01:58:49Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{client}",
+                "kind": "Pod",
+                "name": "client-analyst",
+                "namespace": "group04",
+                "resourceVersion": "15908",
+                "uid": "0b53b0c8-9a53-4108-84d9-f66e39de6364"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-04T03:59:00Z",
+            "message": "Pulling image \"alpine\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-04T01:58:54Z",
+                "name": "client-analyst.18db30fa9c071e29",
+                "namespace": "group04",
+                "resourceVersion": "27342",
+                "uid": "f5860826-a01c-4ffe-b790-fe8e683a89fb"
+            },
+            "reason": "Pulling",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "desktop-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "desktop-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 3,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-04T01:58:56Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{client}",
+                "kind": "Pod",
+                "name": "client-analyst",
+                "namespace": "group04",
+                "resourceVersion": "15908",
+                "uid": "0b53b0c8-9a53-4108-84d9-f66e39de6364"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-04T03:59:03Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-04T01:58:56Z",
+                "name": "client-analyst.18db30fc48448305",
+                "namespace": "group04",
+                "resourceVersion": "27354",
+                "uid": "1e7c14ec-e8c4-463e-91b7-df0a6f3f2e8d"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "desktop-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "desktop-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 3,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-04T01:58:57Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{client}",
+                "kind": "Pod",
+                "name": "client-analyst",
+                "namespace": "group04",
+                "resourceVersion": "15908",
+                "uid": "0b53b0c8-9a53-4108-84d9-f66e39de6364"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-04T03:59:03Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-04T01:58:57Z",
+                "name": "client-analyst.18db30fc54d11a89",
+                "namespace": "group04",
+                "resourceVersion": "27355",
+                "uid": "1815133c-e7d6-4e6b-b569-e4fd6672541e"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "desktop-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "desktop-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-04T03:59:03Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{client}",
+                "kind": "Pod",
+                "name": "client-analyst",
+                "namespace": "group04",
+                "resourceVersion": "15908",
+                "uid": "0b53b0c8-9a53-4108-84d9-f66e39de6364"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-04T03:59:03Z",
+            "message": "Successfully pulled image \"alpine\" in 1.671s (2.702s including waiting). Image size: 3860589 bytes.",
+            "metadata": {
+                "creationTimestamp": "2026-10-04T03:59:03Z",
+                "name": "client-analyst.18db378a149a1d76",
+                "namespace": "group04",
+                "resourceVersion": "27353",
+                "uid": "1ce4ac00-4994-4a2e-bc97-ce67a7113e65"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "desktop-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "desktop-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-04T06:38:43Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "client-analyst",
+                "namespace": "group04",
+                "resourceVersion": "30882",
+                "uid": "0b53b0c8-9a53-4108-84d9-f66e39de6364"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-04T06:38:43Z",
+            "message": "Pod sandbox changed, it will be killed and re-created.",
+            "metadata": {
+                "creationTimestamp": "2026-10-04T06:38:47Z",
+                "name": "client-analyst.18db4040a53481ce",
+                "namespace": "group04",
+                "resourceVersion": "31035",
+                "uid": "34f2a2d0-ebbe-40fd-bc30-aac9ae5ec2a2"
+            },
+            "reason": "SandboxChanged",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "desktop-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "desktop-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-04T06:38:44Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{client}",
+                "kind": "Pod",
+                "name": "client-analyst",
+                "namespace": "group04",
+                "resourceVersion": "30882",
+                "uid": "0b53b0c8-9a53-4108-84d9-f66e39de6364"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-04T06:38:44Z",
+            "message": "Pulling image \"alpine\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-04T06:38:47Z",
+                "name": "client-analyst.18db4040e6382c44",
+                "namespace": "group04",
+                "resourceVersion": "31055",
+                "uid": "843838dd-2b86-429c-a7e3-30d3e51168b2"
+            },
+            "reason": "Pulling",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "desktop-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "desktop-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-04T06:38:48Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{client}",
+                "kind": "Pod",
+                "name": "client-analyst",
+                "namespace": "group04",
+                "resourceVersion": "30882",
+                "uid": "0b53b0c8-9a53-4108-84d9-f66e39de6364"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-04T06:38:48Z",
+            "message": "Successfully pulled image \"alpine\" in 1.739s (4.101s including waiting). Image size: 3860589 bytes.",
+            "metadata": {
+                "creationTimestamp": "2026-10-04T06:38:48Z",
+                "name": "client-analyst.18db4041daa96893",
+                "namespace": "group04",
+                "resourceVersion": "31068",
+                "uid": "610e2f19-2b73-4fe4-bb5a-2b335b1e2ac2"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "desktop-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "desktop-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-04T06:38:48Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{client}",
+                "kind": "Pod",
+                "name": "client-analyst",
+                "namespace": "group04",
+                "resourceVersion": "30882",
+                "uid": "0b53b0c8-9a53-4108-84d9-f66e39de6364"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-04T06:38:48Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-04T06:38:48Z",
+                "name": "client-analyst.18db4041dc35e608",
+                "namespace": "group04",
+                "resourceVersion": "31069",
+                "uid": "f460c9a6-c3fa-4c13-8a50-328dd329d361"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "desktop-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "desktop-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-04T06:38:48Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{client}",
+                "kind": "Pod",
+                "name": "client-analyst",
+                "namespace": "group04",
+                "resourceVersion": "30882",
+                "uid": "0b53b0c8-9a53-4108-84d9-f66e39de6364"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-04T06:38:48Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-04T06:38:48Z",
+                "name": "client-analyst.18db4041ece7bce3",
+                "namespace": "group04",
+                "resourceVersion": "31071",
+                "uid": "3b1d094a-a3a1-470b-8b91-924f833cad5d"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "desktop-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "desktop-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 3,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-04T01:58:49Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{client}",
+                "kind": "Pod",
+                "name": "client-blocked",
+                "namespace": "group04",
+                "resourceVersion": "16197",
+                "uid": "3e9e6dd8-752e-449b-943f-620d938f440f"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-04T03:58:58Z",
+            "message": "Pulling image \"alpine\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-04T01:58:54Z",
+                "name": "client-blocked.18db30fa959ceabf",
+                "namespace": "group04",
+                "resourceVersion": "27332",
+                "uid": "c6b476fa-fd79-4e71-9e52-203c868ed04d"
+            },
+            "reason": "Pulling",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "desktop-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "desktop-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 3,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-04T01:58:55Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{client}",
+                "kind": "Pod",
+                "name": "client-blocked",
+                "namespace": "group04",
+                "resourceVersion": "16197",
+                "uid": "3e9e6dd8-752e-449b-943f-620d938f440f"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-04T03:59:01Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-04T01:58:55Z",
+                "name": "client-blocked.18db30fbe06a4942",
+                "namespace": "group04",
+                "resourceVersion": "27348",
+                "uid": "babce42e-81dc-4d39-997a-333563ba56d6"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "desktop-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "desktop-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 3,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-04T01:58:55Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{client}",
+                "kind": "Pod",
+                "name": "client-blocked",
+                "namespace": "group04",
+                "resourceVersion": "16197",
+                "uid": "3e9e6dd8-752e-449b-943f-620d938f440f"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-04T03:59:01Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-04T01:58:55Z",
+                "name": "client-blocked.18db30fbf369f3d7",
+                "namespace": "group04",
+                "resourceVersion": "27349",
+                "uid": "6385eee1-f99b-4633-a0a3-18047f16325d"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "desktop-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "desktop-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-04T03:59:01Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{client}",
+                "kind": "Pod",
+                "name": "client-blocked",
+                "namespace": "group04",
+                "resourceVersion": "16197",
+                "uid": "3e9e6dd8-752e-449b-943f-620d938f440f"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-04T03:59:01Z",
+            "message": "Successfully pulled image \"alpine\" in 1.732s (3.044s including waiting). Image size: 3860589 bytes.",
+            "metadata": {
+                "creationTimestamp": "2026-10-04T03:59:01Z",
+                "name": "client-blocked.18db3789b0f62163",
+                "namespace": "group04",
+                "resourceVersion": "27347",
+                "uid": "6eaaa338-2295-4be6-9052-9f2ff9e2dc21"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "desktop-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "desktop-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-04T06:38:43Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "client-blocked",
+                "namespace": "group04",
+                "resourceVersion": "29699",
+                "uid": "3e9e6dd8-752e-449b-943f-620d938f440f"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-04T06:38:43Z",
+            "message": "Pod sandbox changed, it will be killed and re-created.",
+            "metadata": {
+                "creationTimestamp": "2026-10-04T06:38:47Z",
+                "name": "client-blocked.18db4040a9eca6b6",
+                "namespace": "group04",
+                "resourceVersion": "31037",
+                "uid": "1aaebd87-95e8-4cbc-bfcd-ed26b873e0e4"
+            },
+            "reason": "SandboxChanged",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "desktop-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "desktop-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-04T06:38:44Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{client}",
+                "kind": "Pod",
+                "name": "client-blocked",
+                "namespace": "group04",
+                "resourceVersion": "29699",
+                "uid": "3e9e6dd8-752e-449b-943f-620d938f440f"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-04T06:38:44Z",
+            "message": "Pulling image \"alpine\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-04T06:38:47Z",
+                "name": "client-blocked.18db4040faae80a3",
+                "namespace": "group04",
+                "resourceVersion": "31062",
+                "uid": "cafb4697-ffad-4b64-889e-b795b93bac72"
+            },
+            "reason": "Pulling",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "desktop-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "desktop-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-04T06:38:53Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{client}",
+                "kind": "Pod",
+                "name": "client-blocked",
+                "namespace": "group04",
+                "resourceVersion": "29699",
+                "uid": "3e9e6dd8-752e-449b-943f-620d938f440f"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-04T06:38:53Z",
+            "message": "Successfully pulled image \"alpine\" in 1.68s (9.246s including waiting). Image size: 3860589 bytes.",
+            "metadata": {
+                "creationTimestamp": "2026-10-04T06:38:53Z",
+                "name": "client-blocked.18db404321d08763",
+                "namespace": "group04",
+                "resourceVersion": "31096",
+                "uid": "0da94f9d-2ed7-4fc4-91eb-c394ac1dfb66"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "desktop-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "desktop-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-04T06:38:53Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{client}",
+                "kind": "Pod",
+                "name": "client-blocked",
+                "namespace": "group04",
+                "resourceVersion": "29699",
+                "uid": "3e9e6dd8-752e-449b-943f-620d938f440f"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-04T06:38:53Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-04T06:38:53Z",
+                "name": "client-blocked.18db404322ecfc76",
+                "namespace": "group04",
+                "resourceVersion": "31097",
+                "uid": "de7deb77-764f-4f89-8471-1ee182a59d14"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "desktop-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "desktop-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-04T06:38:54Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{client}",
+                "kind": "Pod",
+                "name": "client-blocked",
+                "namespace": "group04",
+                "resourceVersion": "29699",
+                "uid": "3e9e6dd8-752e-449b-943f-620d938f440f"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-04T06:38:54Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-04T06:38:54Z",
+                "name": "client-blocked.18db40433224fa30",
+                "namespace": "group04",
+                "resourceVersion": "31098",
+                "uid": "ab6950d2-f4ad-469d-b48f-aa53bd28f0ed"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "desktop-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "desktop-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 3,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-04T01:58:49Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{client}",
+                "kind": "Pod",
+                "name": "client-ingestor",
+                "namespace": "group04",
+                "resourceVersion": "15571",
+                "uid": "93588069-43b0-4261-a57d-b445856a609b"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-04T03:59:01Z",
+            "message": "Pulling image \"alpine\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-04T01:58:54Z",
+                "name": "client-ingestor.18db30faa45ab0ac",
+                "namespace": "group04",
+                "resourceVersion": "27345",
+                "uid": "42cbcff2-3bc5-4fab-a64f-36995615c542"
+            },
+            "reason": "Pulling",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "desktop-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "desktop-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 3,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-04T01:58:58Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{client}",
+                "kind": "Pod",
+                "name": "client-ingestor",
+                "namespace": "group04",
+                "resourceVersion": "15571",
+                "uid": "93588069-43b0-4261-a57d-b445856a609b"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-04T03:59:04Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-04T01:58:58Z",
+                "name": "client-ingestor.18db30fcb16be896",
+                "namespace": "group04",
+                "resourceVersion": "27359",
+                "uid": "6fd46dba-1d5f-4063-864c-0689b5332f05"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "desktop-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "desktop-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 3,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-04T01:58:58Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{client}",
+                "kind": "Pod",
+                "name": "client-ingestor",
+                "namespace": "group04",
+                "resourceVersion": "15571",
+                "uid": "93588069-43b0-4261-a57d-b445856a609b"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-04T03:59:05Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-04T01:58:58Z",
+                "name": "client-ingestor.18db30fcb8aeab0b",
+                "namespace": "group04",
+                "resourceVersion": "27361",
+                "uid": "7a47e4f8-f56f-47ac-96d7-05bfb956475a"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "desktop-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "desktop-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-04T03:59:04Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{client}",
+                "kind": "Pod",
+                "name": "client-ingestor",
+                "namespace": "group04",
+                "resourceVersion": "15571",
+                "uid": "93588069-43b0-4261-a57d-b445856a609b"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-04T03:59:04Z",
+            "message": "Successfully pulled image \"alpine\" in 1.743s (3.439s including waiting). Image size: 3860589 bytes.",
+            "metadata": {
+                "creationTimestamp": "2026-10-04T03:59:04Z",
+                "name": "client-ingestor.18db378a7c7e979d",
+                "namespace": "group04",
+                "resourceVersion": "27358",
+                "uid": "f8344f44-2569-4ecf-9e31-24253d23f48e"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "desktop-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "desktop-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-04T06:38:43Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "client-ingestor",
+                "namespace": "group04",
+                "resourceVersion": "30889",
+                "uid": "93588069-43b0-4261-a57d-b445856a609b"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-04T06:38:43Z",
+            "message": "Pod sandbox changed, it will be killed and re-created.",
+            "metadata": {
+                "creationTimestamp": "2026-10-04T06:38:47Z",
+                "name": "client-ingestor.18db4040a67b0008",
+                "namespace": "group04",
+                "resourceVersion": "31036",
+                "uid": "2a88b9a2-5aeb-4957-9e6d-20da6a268074"
+            },
+            "reason": "SandboxChanged",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "desktop-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "desktop-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-04T06:38:44Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{client}",
+                "kind": "Pod",
+                "name": "client-ingestor",
+                "namespace": "group04",
+                "resourceVersion": "30889",
+                "uid": "93588069-43b0-4261-a57d-b445856a609b"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-04T06:38:44Z",
+            "message": "Pulling image \"alpine\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-04T06:38:47Z",
+                "name": "client-ingestor.18db4040f25c88f2",
+                "namespace": "group04",
+                "resourceVersion": "31058",
+                "uid": "3b4766ba-73dc-463b-838e-0f91bb650e0f"
+            },
+            "reason": "Pulling",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "desktop-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "desktop-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-04T06:38:50Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{client}",
+                "kind": "Pod",
+                "name": "client-ingestor",
+                "namespace": "group04",
+                "resourceVersion": "30889",
+                "uid": "93588069-43b0-4261-a57d-b445856a609b"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-04T06:38:50Z",
+            "message": "Successfully pulled image \"alpine\" in 2.114s (6.011s including waiting). Image size: 3860589 bytes.",
+            "metadata": {
+                "creationTimestamp": "2026-10-04T06:38:50Z",
+                "name": "client-ingestor.18db404258ab5753",
+                "namespace": "group04",
+                "resourceVersion": "31076",
+                "uid": "bbaaa572-a6b6-4ced-b102-a6d5faa69605"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "desktop-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "desktop-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-04T06:38:50Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{client}",
+                "kind": "Pod",
+                "name": "client-ingestor",
+                "namespace": "group04",
+                "resourceVersion": "30889",
+                "uid": "93588069-43b0-4261-a57d-b445856a609b"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-04T06:38:50Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-04T06:38:50Z",
+                "name": "client-ingestor.18db404259f07eb0",
+                "namespace": "group04",
+                "resourceVersion": "31077",
+                "uid": "1ca9d44e-b4cb-412c-b1a5-97505ac918ad"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "desktop-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "desktop-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-04T06:38:50Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{client}",
+                "kind": "Pod",
+                "name": "client-ingestor",
+                "namespace": "group04",
+                "resourceVersion": "30889",
+                "uid": "93588069-43b0-4261-a57d-b445856a609b"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-04T06:38:50Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-04T06:38:50Z",
+                "name": "client-ingestor.18db4042610d367c",
+                "namespace": "group04",
+                "resourceVersion": "31078",
+                "uid": "f1f9a578-6c03-4169-80a6-d41661ec3f68"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "desktop-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "desktop-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 3,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-04T01:58:49Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{client}",
+                "kind": "Pod",
+                "name": "client-owner",
+                "namespace": "group04",
+                "resourceVersion": "15546",
+                "uid": "9ab681be-80ff-4f88-8b8f-feb15a56d60f"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-04T03:58:57Z",
+            "message": "Pulling image \"alpine\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-04T01:58:54Z",
+                "name": "client-owner.18db30fa937c1777",
+                "namespace": "group04",
+                "resourceVersion": "27330",
+                "uid": "33ff5bba-7f8b-4c67-8ba5-4fbbea1d39e4"
+            },
+            "reason": "Pulling",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "desktop-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "desktop-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 3,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-04T01:58:53Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{client}",
+                "kind": "Pod",
+                "name": "client-owner",
+                "namespace": "group04",
+                "resourceVersion": "15546",
+                "uid": "9ab681be-80ff-4f88-8b8f-feb15a56d60f"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-04T03:58:59Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-04T01:58:54Z",
+                "name": "client-owner.18db30fb7818d46a",
+                "namespace": "group04",
+                "resourceVersion": "27338",
+                "uid": "f4db6fa4-fb8b-4224-a8d2-be7f6324fcce"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "desktop-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "desktop-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 3,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-04T01:58:53Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{client}",
+                "kind": "Pod",
+                "name": "client-owner",
+                "namespace": "group04",
+                "resourceVersion": "15546",
+                "uid": "9ab681be-80ff-4f88-8b8f-feb15a56d60f"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-04T03:58:59Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-04T01:58:54Z",
+                "name": "client-owner.18db30fb8d990fb7",
+                "namespace": "group04",
+                "resourceVersion": "27340",
+                "uid": "5d281665-f9c6-4050-ac2b-e44d44fffd85"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "desktop-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "desktop-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-04T03:58:59Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{client}",
+                "kind": "Pod",
+                "name": "client-owner",
+                "namespace": "group04",
+                "resourceVersion": "15546",
+                "uid": "9ab681be-80ff-4f88-8b8f-feb15a56d60f"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-04T03:58:59Z",
+            "message": "Successfully pulled image \"alpine\" in 2.319s (2.319s including waiting). Image size: 3860589 bytes.",
+            "metadata": {
+                "creationTimestamp": "2026-10-04T03:58:59Z",
+                "name": "client-owner.18db378949b0e383",
+                "namespace": "group04",
+                "resourceVersion": "27337",
+                "uid": "86451120-e80b-4b1b-9a8c-899bc1c13325"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "desktop-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "desktop-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-04T06:38:43Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "client-owner",
+                "namespace": "group04",
+                "resourceVersion": "30829",
+                "uid": "9ab681be-80ff-4f88-8b8f-feb15a56d60f"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-04T06:38:43Z",
+            "message": "Pod sandbox changed, it will be killed and re-created.",
+            "metadata": {
+                "creationTimestamp": "2026-10-04T06:38:47Z",
+                "name": "client-owner.18db4040ad0d643f",
+                "namespace": "group04",
+                "resourceVersion": "31038",
+                "uid": "79d08ead-cc61-4fd1-aab9-ea59ea452bea"
+            },
+            "reason": "SandboxChanged",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "desktop-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "desktop-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-04T06:38:44Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{client}",
+                "kind": "Pod",
+                "name": "client-owner",
+                "namespace": "group04",
+                "resourceVersion": "30829",
+                "uid": "9ab681be-80ff-4f88-8b8f-feb15a56d60f"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-04T06:38:44Z",
+            "message": "Pulling image \"alpine\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-04T06:38:47Z",
+                "name": "client-owner.18db4040f9cb1919",
+                "namespace": "group04",
+                "resourceVersion": "31061",
+                "uid": "b6904503-15a0-4b84-96dc-d4cdf2c4559b"
+            },
+            "reason": "Pulling",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "desktop-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "desktop-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-04T06:38:52Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{client}",
+                "kind": "Pod",
+                "name": "client-owner",
+                "namespace": "group04",
+                "resourceVersion": "30829",
+                "uid": "9ab681be-80ff-4f88-8b8f-feb15a56d60f"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-04T06:38:52Z",
+            "message": "Successfully pulled image \"alpine\" in 1.694s (7.581s including waiting). Image size: 3860589 bytes.",
+            "metadata": {
+                "creationTimestamp": "2026-10-04T06:38:52Z",
+                "name": "client-owner.18db4042bdaa9d87",
+                "namespace": "group04",
+                "resourceVersion": "31080",
+                "uid": "3f16c458-8e02-44d0-9e3b-4d3f84e6d72f"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "desktop-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "desktop-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-04T06:38:52Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{client}",
+                "kind": "Pod",
+                "name": "client-owner",
+                "namespace": "group04",
+                "resourceVersion": "30829",
+                "uid": "9ab681be-80ff-4f88-8b8f-feb15a56d60f"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-04T06:38:52Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-04T06:38:52Z",
+                "name": "client-owner.18db4042befb1e30",
+                "namespace": "group04",
+                "resourceVersion": "31081",
+                "uid": "eea1b923-67d5-4667-ba7f-64ee4e8d910b"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "desktop-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "desktop-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-04T06:38:52Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{client}",
+                "kind": "Pod",
+                "name": "client-owner",
+                "namespace": "group04",
+                "resourceVersion": "30829",
+                "uid": "9ab681be-80ff-4f88-8b8f-feb15a56d60f"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-04T06:38:52Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-04T06:38:52Z",
+                "name": "client-owner.18db4042cd17febb",
+                "namespace": "group04",
+                "resourceVersion": "31082",
+                "uid": "1a33af1f-7c9c-4e7c-9425-f4c364b9ade5"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "desktop-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "desktop-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-04T06:38:43Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "objects-7db59fd589-q2tfm",
+                "namespace": "group04",
+                "resourceVersion": "30709",
+                "uid": "f7fa7ece-610f-4d9e-a32c-51e9593eff84"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-04T06:38:43Z",
+            "message": "Pod sandbox changed, it will be killed and re-created.",
+            "metadata": {
+                "creationTimestamp": "2026-10-04T06:38:47Z",
+                "name": "objects-7db59fd589-q2tfm.18db4040be025f42",
+                "namespace": "group04",
+                "resourceVersion": "31044",
+                "uid": "2bb04fff-559e-4f5d-8612-fe82574465c6"
+            },
+            "reason": "SandboxChanged",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "desktop-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "desktop-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-04T06:38:44Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{store}",
+                "kind": "Pod",
+                "name": "objects-7db59fd589-q2tfm",
+                "namespace": "group04",
+                "resourceVersion": "30709",
+                "uid": "f7fa7ece-610f-4d9e-a32c-51e9593eff84"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-04T06:38:44Z",
+            "message": "Pulling image \"chrislusf/seaweedfs:latest\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-04T06:38:47Z",
+                "name": "objects-7db59fd589-q2tfm.18db4040dab21271",
+                "namespace": "group04",
+                "resourceVersion": "31050",
+                "uid": "7a464180-db9e-49b1-88cf-701019131874"
+            },
+            "reason": "Pulling",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "desktop-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "desktop-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-04T06:38:46Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{store}",
+                "kind": "Pod",
+                "name": "objects-7db59fd589-q2tfm",
+                "namespace": "group04",
+                "resourceVersion": "30709",
+                "uid": "f7fa7ece-610f-4d9e-a32c-51e9593eff84"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-04T06:38:46Z",
+            "message": "Successfully pulled image \"chrislusf/seaweedfs:latest\" in 2.554s (2.554s including waiting). Image size: 193574240 bytes.",
+            "metadata": {
+                "creationTimestamp": "2026-10-04T06:38:47Z",
+                "name": "objects-7db59fd589-q2tfm.18db404172f6fcc1",
+                "namespace": "group04",
+                "resourceVersion": "31065",
+                "uid": "fb2af9e0-64eb-4037-b61d-94bbd6b50e71"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "desktop-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "desktop-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-04T06:38:46Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{store}",
+                "kind": "Pod",
+                "name": "objects-7db59fd589-q2tfm",
+                "namespace": "group04",
+                "resourceVersion": "30709",
+                "uid": "f7fa7ece-610f-4d9e-a32c-51e9593eff84"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-04T06:38:46Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-04T06:38:47Z",
+                "name": "objects-7db59fd589-q2tfm.18db404174680192",
+                "namespace": "group04",
+                "resourceVersion": "31066",
+                "uid": "0e1e5b50-83ed-4a97-bcd6-565adac4633a"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "desktop-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "desktop-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-04T06:38:46Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{store}",
+                "kind": "Pod",
+                "name": "objects-7db59fd589-q2tfm",
+                "namespace": "group04",
+                "resourceVersion": "30709",
+                "uid": "f7fa7ece-610f-4d9e-a32c-51e9593eff84"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-04T06:38:46Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-04T06:38:47Z",
+                "name": "objects-7db59fd589-q2tfm.18db404179ac6f96",
+                "namespace": "group04",
+                "resourceVersion": "31067",
+                "uid": "9cfc73b2-e5dd-4cd6-974d-490802eb8d5c"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "desktop-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "desktop-control-plane"
+            },
+            "type": "Normal"
+        }
+    ],
+    "kind": "List",
+    "metadata": {
+        "resourceVersion": ""
+    }
+}
