@@ -5,3 +5,4 @@ private/
 *.pem
 .env
 !evidence/**/*.json
+.DS_Store
