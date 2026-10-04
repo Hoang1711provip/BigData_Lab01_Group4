@@ -1,1 +1,0 @@
-{"bucket": "research-release", "bytes": 25, "error": null, "http": 200, "key": "fixture.txt", "ms": 17.566400005307514, "ok": true, "op": "get", "principal": "unspecified", "request_id": "18DB44706D10921F2304E476", "sha256": "9ce4c8bb96c85122c3b386653fbe9150cb2f4df03f25c83408fe11c29b87d6f8", "utc": "2026-10-04T07:55:26.471387+00:00"}
