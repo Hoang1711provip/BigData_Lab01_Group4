@@ -1,0 +1,5 @@
+Trong bài lab, nhóm sử dụng ResourceQuota để quản lý và giới hạn tài nguyên trong namespace. 
+Quota bao gồm giới hạn CPU, bộ nhớ, storage, số lượng PVC và Pod. 
+Storage được giới hạn 8Gi, trong đó PVC object-data yêu cầu 4Gi. 
+Tổng requests và limits của storage service và 4 client phải nằm trong giới hạn đã đặt. 
+Probe hợp lệ được chấp nhận, còn probe vượt quota bị Kubernetes từ chối
