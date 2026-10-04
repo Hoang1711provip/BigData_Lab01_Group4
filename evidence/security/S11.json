@@ -1,0 +1,1 @@
+{"bucket": "research-raw", "bytes": 0, "error": "AccessDenied", "http": 403, "key": "", "ms": 7.228577000205405, "ok": false, "op": "list", "principal": "analyst", "request_id": "18DB450B0DCD8AC38F5E2CDF", "utc": "2026-10-04T08:06:30.590974+00:00"}
