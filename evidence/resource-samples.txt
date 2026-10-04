@@ -4388,3 +4388,94 @@ persistentvolumeclaim/object-data   Bound    pvc-16633fec-8118-4370-a306-0d47641
 
 NAME                        REQUEST                                                                                                                LIMIT                                            AGE
 resourcequota/team-budget   persistentvolumeclaims: 1/2, pods: 5/10, requests.cpu: 700m/2, requests.memory: 768Mi/2Gi, requests.storage: 4Gi/8Gi   limits.cpu: 1400m/4, limits.memory: 1536Mi/4Gi   15h
+2026-10-04T07:50:05Z
+NAME                           READY   STATUS    RESTARTS      AGE   IP           NODE                    NOMINATED NODE   READINESS GATES
+pod/client-analyst             1/1     Running   5 (11m ago)   14h   10.244.0.2   desktop-control-plane   <none>           <none>
+pod/client-blocked             1/1     Running   5 (11m ago)   14h   10.244.0.4   desktop-control-plane   <none>           <none>
+pod/client-ingestor            1/1     Running   5 (11m ago)   14h   10.244.0.3   desktop-control-plane   <none>           <none>
+pod/client-owner               1/1     Running   5 (11m ago)   14h   10.244.0.5   desktop-control-plane   <none>           <none>
+pod/objects-7db59fd589-q2tfm   1/1     Running   2 (71m ago)   14h   10.244.0.9   desktop-control-plane   <none>           <none>
+
+NAME                                STATUS   VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   VOLUMEATTRIBUTESCLASS   AGE   VOLUMEMODE
+persistentvolumeclaim/object-data   Bound    pvc-16633fec-8118-4370-a306-0d47641ef019   4Gi        RWO            standard       <unset>                 14h   Filesystem
+
+NAME                        REQUEST                                                                                                                LIMIT                                            AGE
+resourcequota/team-budget   persistentvolumeclaims: 1/2, pods: 5/10, requests.cpu: 700m/2, requests.memory: 768Mi/2Gi, requests.storage: 4Gi/8Gi   limits.cpu: 1400m/4, limits.memory: 1536Mi/4Gi   15h
+2026-10-04T07:51:05Z
+NAME                           READY   STATUS    RESTARTS      AGE   IP           NODE                    NOMINATED NODE   READINESS GATES
+pod/client-analyst             1/1     Running   5 (12m ago)   14h   10.244.0.2   desktop-control-plane   <none>           <none>
+pod/client-blocked             1/1     Running   5 (12m ago)   14h   10.244.0.4   desktop-control-plane   <none>           <none>
+pod/client-ingestor            1/1     Running   5 (12m ago)   14h   10.244.0.3   desktop-control-plane   <none>           <none>
+pod/client-owner               1/1     Running   5 (12m ago)   14h   10.244.0.5   desktop-control-plane   <none>           <none>
+pod/objects-7db59fd589-q2tfm   1/1     Running   2 (72m ago)   14h   10.244.0.9   desktop-control-plane   <none>           <none>
+
+NAME                                STATUS   VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   VOLUMEATTRIBUTESCLASS   AGE   VOLUMEMODE
+persistentvolumeclaim/object-data   Bound    pvc-16633fec-8118-4370-a306-0d47641ef019   4Gi        RWO            standard       <unset>                 14h   Filesystem
+
+NAME                        REQUEST                                                                                                                LIMIT                                            AGE
+resourcequota/team-budget   persistentvolumeclaims: 1/2, pods: 5/10, requests.cpu: 700m/2, requests.memory: 768Mi/2Gi, requests.storage: 4Gi/8Gi   limits.cpu: 1400m/4, limits.memory: 1536Mi/4Gi   15h
+2026-10-04T07:52:06Z
+NAME                           READY   STATUS    RESTARTS      AGE   IP           NODE                    NOMINATED NODE   READINESS GATES
+pod/client-analyst             1/1     Running   5 (13m ago)   14h   10.244.0.2   desktop-control-plane   <none>           <none>
+pod/client-blocked             1/1     Running   5 (13m ago)   14h   10.244.0.4   desktop-control-plane   <none>           <none>
+pod/client-ingestor            1/1     Running   5 (13m ago)   14h   10.244.0.3   desktop-control-plane   <none>           <none>
+pod/client-owner               1/1     Running   5 (13m ago)   14h   10.244.0.5   desktop-control-plane   <none>           <none>
+pod/objects-7db59fd589-q2tfm   1/1     Running   2 (73m ago)   14h   10.244.0.9   desktop-control-plane   <none>           <none>
+
+NAME                                STATUS   VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   VOLUMEATTRIBUTESCLASS   AGE   VOLUMEMODE
+persistentvolumeclaim/object-data   Bound    pvc-16633fec-8118-4370-a306-0d47641ef019   4Gi        RWO            standard       <unset>                 14h   Filesystem
+
+NAME                        REQUEST                                                                                                                LIMIT                                            AGE
+resourcequota/team-budget   persistentvolumeclaims: 1/2, pods: 5/10, requests.cpu: 700m/2, requests.memory: 768Mi/2Gi, requests.storage: 4Gi/8Gi   limits.cpu: 1400m/4, limits.memory: 1536Mi/4Gi   15h
+2026-10-04T07:53:06Z
+NAME                           READY   STATUS    RESTARTS      AGE   IP           NODE                    NOMINATED NODE   READINESS GATES
+pod/client-analyst             1/1     Running   5 (14m ago)   14h   10.244.0.2   desktop-control-plane   <none>           <none>
+pod/client-blocked             1/1     Running   5 (14m ago)   14h   10.244.0.4   desktop-control-plane   <none>           <none>
+pod/client-ingestor            1/1     Running   5 (14m ago)   14h   10.244.0.3   desktop-control-plane   <none>           <none>
+pod/client-owner               1/1     Running   5 (14m ago)   14h   10.244.0.5   desktop-control-plane   <none>           <none>
+pod/objects-7db59fd589-q2tfm   1/1     Running   2 (74m ago)   14h   10.244.0.9   desktop-control-plane   <none>           <none>
+
+NAME                                STATUS   VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   VOLUMEATTRIBUTESCLASS   AGE   VOLUMEMODE
+persistentvolumeclaim/object-data   Bound    pvc-16633fec-8118-4370-a306-0d47641ef019   4Gi        RWO            standard       <unset>                 14h   Filesystem
+
+NAME                        REQUEST                                                                                                                LIMIT                                            AGE
+resourcequota/team-budget   persistentvolumeclaims: 1/2, pods: 5/10, requests.cpu: 700m/2, requests.memory: 768Mi/2Gi, requests.storage: 4Gi/8Gi   limits.cpu: 1400m/4, limits.memory: 1536Mi/4Gi   15h
+2026-10-04T07:54:07Z
+NAME                           READY   STATUS    RESTARTS      AGE   IP           NODE                    NOMINATED NODE   READINESS GATES
+pod/client-analyst             1/1     Running   5 (15m ago)   14h   10.244.0.2   desktop-control-plane   <none>           <none>
+pod/client-blocked             1/1     Running   5 (15m ago)   14h   10.244.0.4   desktop-control-plane   <none>           <none>
+pod/client-ingestor            1/1     Running   5 (15m ago)   14h   10.244.0.3   desktop-control-plane   <none>           <none>
+pod/client-owner               1/1     Running   5 (15m ago)   14h   10.244.0.5   desktop-control-plane   <none>           <none>
+pod/objects-7db59fd589-q2tfm   1/1     Running   2 (75m ago)   14h   10.244.0.9   desktop-control-plane   <none>           <none>
+
+NAME                                STATUS   VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   VOLUMEATTRIBUTESCLASS   AGE   VOLUMEMODE
+persistentvolumeclaim/object-data   Bound    pvc-16633fec-8118-4370-a306-0d47641ef019   4Gi        RWO            standard       <unset>                 14h   Filesystem
+
+NAME                        REQUEST                                                                                                                LIMIT                                            AGE
+resourcequota/team-budget   persistentvolumeclaims: 1/2, pods: 5/10, requests.cpu: 700m/2, requests.memory: 768Mi/2Gi, requests.storage: 4Gi/8Gi   limits.cpu: 1400m/4, limits.memory: 1536Mi/4Gi   15h
+2026-10-04T07:55:07Z
+NAME                           READY   STATUS    RESTARTS      AGE   IP           NODE                    NOMINATED NODE   READINESS GATES
+pod/client-analyst             1/1     Running   5 (16m ago)   14h   10.244.0.2   desktop-control-plane   <none>           <none>
+pod/client-blocked             1/1     Running   5 (16m ago)   14h   10.244.0.4   desktop-control-plane   <none>           <none>
+pod/client-ingestor            1/1     Running   5 (16m ago)   14h   10.244.0.3   desktop-control-plane   <none>           <none>
+pod/client-owner               1/1     Running   5 (16m ago)   14h   10.244.0.5   desktop-control-plane   <none>           <none>
+pod/objects-7db59fd589-q2tfm   1/1     Running   2 (76m ago)   14h   10.244.0.9   desktop-control-plane   <none>           <none>
+
+NAME                                STATUS   VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   VOLUMEATTRIBUTESCLASS   AGE   VOLUMEMODE
+persistentvolumeclaim/object-data   Bound    pvc-16633fec-8118-4370-a306-0d47641ef019   4Gi        RWO            standard       <unset>                 14h   Filesystem
+
+NAME                        REQUEST                                                                                                                LIMIT                                            AGE
+resourcequota/team-budget   persistentvolumeclaims: 1/2, pods: 5/10, requests.cpu: 700m/2, requests.memory: 768Mi/2Gi, requests.storage: 4Gi/8Gi   limits.cpu: 1400m/4, limits.memory: 1536Mi/4Gi   15h
+2026-10-04T07:56:07Z
+NAME                           READY   STATUS    RESTARTS      AGE   IP           NODE                    NOMINATED NODE   READINESS GATES
+pod/client-analyst             1/1     Running   5 (17m ago)   14h   10.244.0.2   desktop-control-plane   <none>           <none>
+pod/client-blocked             1/1     Running   5 (17m ago)   14h   10.244.0.4   desktop-control-plane   <none>           <none>
+pod/client-ingestor            1/1     Running   5 (17m ago)   14h   10.244.0.3   desktop-control-plane   <none>           <none>
+pod/client-owner               1/1     Running   5 (17m ago)   14h   10.244.0.5   desktop-control-plane   <none>           <none>
+pod/objects-7db59fd589-q2tfm   1/1     Running   2 (77m ago)   14h   10.244.0.9   desktop-control-plane   <none>           <none>
+
+NAME                                STATUS   VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   VOLUMEATTRIBUTESCLASS   AGE   VOLUMEMODE
+persistentvolumeclaim/object-data   Bound    pvc-16633fec-8118-4370-a306-0d47641ef019   4Gi        RWO            standard       <unset>                 14h   Filesystem
+
+NAME                        REQUEST                                                                                                                LIMIT                                            AGE
+resourcequota/team-budget   persistentvolumeclaims: 1/2, pods: 5/10, requests.cpu: 700m/2, requests.memory: 768Mi/2Gi, requests.storage: 4Gi/8Gi   limits.cpu: 1400m/4, limits.memory: 1536Mi/4Gi   15h

@@ -1,1 +1,1 @@
-{"bucket": "research-release", "bytes": 25, "error": null, "http": 200, "key": "auth-probe.txt", "ms": 29.08469999965746, "ok": true, "op": "put", "principal": "unspecified", "request_id": "18DB42CB4C61A3B4555758D0", "utc": "2026-10-04T07:25:17.752470+00:00"}
+{"bucket": "research-release", "bytes": 25, "error": null, "http": 200, "key": "auth-probe.txt", "ms": 20.231399998010602, "ok": true, "op": "put", "principal": "unspecified", "request_id": "18DB447033D51EB83872AFD1", "utc": "2026-10-04T07:55:25.511564+00:00"}
