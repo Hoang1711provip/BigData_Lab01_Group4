@@ -1,0 +1,9 @@
+LAST SEEN   TYPE      REASON             OBJECT                          MESSAGE
+7m34s       Normal    Killing            pod/objects-6db89bb7c7-2btxd    Stopping container store
+7m34s       Normal    Scheduled          pod/objects-6db89bb7c7-5p89r    Successfully assigned group04/objects-6db89bb7c7-5p89r to desktop-control-plane
+7m34s       Normal    SuccessfulCreate   replicaset/objects-6db89bb7c7   Created pod: objects-6db89bb7c7-5p89r
+7m33s       Normal    Pulling            pod/objects-6db89bb7c7-5p89r    Pulling image "chrislusf/seaweedfs@sha256:4e61d15fd35994cb1e43e1e553dff106794841fd9a99ade2fc8c8bfce4d7872d"
+7m33s       Normal    Pulled             pod/objects-6db89bb7c7-5p89r    Successfully pulled image "chrislusf/seaweedfs@sha256:4e61d15fd35994cb1e43e1e553dff106794841fd9a99ade2fc8c8bfce4d7872d" in 114ms (114ms including waiting). Image size: 193574240 bytes.
+7m33s       Normal    Created            pod/objects-6db89bb7c7-5p89r    Container created
+7m33s       Normal    Started            pod/objects-6db89bb7c7-5p89r    Container started
+7m32s       Warning   Unhealthy          pod/objects-6db89bb7c7-2btxd    Readiness probe failed: dial tcp 10.244.0.6:8333: connect: connection refused
